@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa conceptual de Rucair</title>
+  <desc id="desc">Nginx conecta la interfaz Next.js con la API Django y PostgreSQL. La procedencia se asocia a tarjetas de estiba; documentos y movimientos conectan inventario con producción y despachos.</desc>
+  <defs>
+    <linearGradient id="head" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#164e63"/></linearGradient>
+    <filter id="shade"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity=".12"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#64748b"/></marker>
+    <style>text{font-family:Arial,Helvetica,sans-serif}.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px}.title{font-size:32px;font-weight:700}.subtitle{font-size:15px}.lane{font-size:14px;font-weight:700;letter-spacing:1px}.cardTitle{font-size:18px;font-weight:700;fill:#0f172a}.detail{font-size:13px;fill:#475569}</style>
+  </defs>
+  <rect width="1200" height="600" rx="22" fill="#f8fafc"/>
+  <path d="M22 0H1178Q1200 0 1200 22V148H0V22Q0 0 22 0Z" fill="url(#head)"/>
+  <text x="50" y="41" class="eyebrow" fill="#67e8f9">CASO DE ESTUDIO · ARQUITECTURA</text>
+  <text x="50" y="84" class="title" fill="white">Rucair: del lote a la decisión operativa</text>
+  <text x="50" y="116" class="subtitle" fill="#cbd5e1">Inventario trazable · producción · documentos · despachos parciales · análisis</text>
+  <text x="50" y="184" class="lane" fill="#334155">EXPERIENCIA Y PLATAFORMA</text>
+  <g filter="url(#shade)" fill="white" stroke="#cbd5e1">
+    <rect x="50" y="202" width="240" height="95" rx="13"/><rect x="335" y="202" width="240" height="95" rx="13"/>
+    <rect x="620" y="202" width="240" height="95" rx="13"/><rect x="905" y="202" width="245" height="95" rx="13"/>
+  </g>
+  <path d="M50 215Q50 202 63 202H57V297H50Z" fill="#06b6d4"/>
+  <path d="M335 215Q335 202 348 202H342V297H335Z" fill="#8b5cf6"/>
+  <path d="M620 215Q620 202 633 202H627V297H620Z" fill="#22c55e"/>
+  <path d="M905 215Q905 202 918 202H912V297H905Z" fill="#f59e0b"/>
+  <text x="74" y="238" class="cardTitle">Cliente web</text><text x="74" y="262" class="detail">React · TypeScript</text><text x="74" y="281" class="detail">Interfaz creada con Next.js</text>
+  <text x="359" y="238" class="cardTitle">Nginx</text><text x="359" y="262" class="detail">HTTPS y enrutamiento</text><text x="359" y="281" class="detail">Frontend / API</text>
+  <text x="644" y="238" class="cardTitle">API y reglas</text><text x="644" y="262" class="detail">Django · REST Framework</text><text x="644" y="281" class="detail">Servicios y permisos</text>
+  <text x="929" y="238" class="cardTitle">Persistencia</text><text x="929" y="262" class="detail">PostgreSQL</text><text x="929" y="281" class="detail">Historial y saldos</text>
+  <g stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"><path d="M293 250H326"/><path d="M578 250H611"/><path d="M863 250H896"/></g>
+  <text x="50" y="350" class="lane" fill="#334155">DOMINIO Y TRAZABILIDAD</text>
+  <rect x="50" y="368" width="1100" height="166" rx="18" fill="#eaf2f8" stroke="#c7d8e8"/>
+  <g fill="white" stroke="#a5d8e4">
+    <rect x="73" y="390" width="202" height="106" rx="12"/><rect x="319" y="390" width="226" height="106" rx="12"/>
+    <rect x="589" y="390" width="226" height="106" rx="12"/><rect x="859" y="390" width="267" height="106" rx="12"/>
+  </g>
+  <text x="91" y="423" class="cardTitle">Origen</text><text x="91" y="448" class="detail">Proveedor o contenedor</text><text x="91" y="469" class="detail">Procedencia de compra</text>
+  <text x="337" y="423" class="cardTitle">Tarjeta de estiba</text><text x="337" y="448" class="detail">Variante · almacén · origen</text><text x="337" y="469" class="detail">Saldo por tarjeta</text>
+  <text x="607" y="423" class="cardTitle">Documentos</text><text x="607" y="448" class="detail">Recepción · salida · informe</text><text x="607" y="469" class="detail">Movimientos y reversión</text>
+  <text x="877" y="423" class="cardTitle">Procesos conectados</text><text x="877" y="448" class="detail">Producción y material WIP</text><text x="877" y="469" class="detail">Factura y despacho parcial</text>
+  <g stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)"><path d="M278 443H310"/><path d="M548 443H580"/><path d="M818 443H850"/></g>
+  <text x="50" y="570" class="subtitle" fill="#475569">El historial explica los cambios; los saldos resumen el estado actual.</text>
+</svg>

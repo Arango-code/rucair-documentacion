@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="720" viewBox="0 0 1920 720" role="img" aria-labelledby="title desc">
+  <title id="title">Rucair — arquitectura y trazabilidad</title>
+  <desc id="desc">Portada horizontal. Arriba, una franja pequeña muestra Cliente, Nginx, API y reglas, Persistencia. El flujo principal muestra Origen, Tarjeta de estiba, Documentos y Procesos conectados.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1426"/><stop offset="1" stop-color="#102536"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#192c40"/><stop offset="1" stop-color="#142337"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#83b6cd" opacity=".1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 8 5 1 9" fill="none" stroke="#81a0b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>text{font-family:Arial,Helvetica,sans-serif} .micro{font-size:14px;font-weight:700;letter-spacing:2.4px}.platform{font-size:19px;font-weight:700;fill:#e2eaf4}.platformDetail{font-size:14px;fill:#9db1c7}.title{font-size:28px;font-weight:700;fill:#f4f8ff}.body{font-size:20px;fill:#b2c4d7}.number{font-size:15px;font-weight:700;letter-spacing:2px}.icon{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="1920" height="720" fill="url(#bg)"/>
+  <rect width="1920" height="720" fill="url(#grid)"/>
+  <rect x="64" y="58" width="5" height="77" rx="2.5" fill="#52d8ec"/>
+  <text x="88" y="103" font-size="53" font-weight="700" fill="#f4f8ff" letter-spacing="-1.8">Rucair</text>
+  <text x="90" y="135" font-size="17" fill="#a9bfd2">Inventario · producción · despacho</text>
+
+  <text x="627" y="48" class="micro" fill="#6e94ad">PLATAFORMA</text>
+  <g fill="#102035" stroke="#2b435c">
+    <rect x="627" y="66" width="270" height="82" rx="12"/>
+    <rect x="947" y="66" width="260" height="82" rx="12"/>
+    <rect x="1257" y="66" width="282" height="82" rx="12"/>
+    <rect x="1589" y="66" width="267" height="82" rx="12"/>
+  </g>
+  <circle cx="651" cy="95" r="4" fill="#54d9ed"/><text x="667" y="102" class="platform">Cliente</text><text x="651" y="127" class="platformDetail">Interfaz Next.js / React</text>
+  <circle cx="971" cy="95" r="4" fill="#af9dff"/><text x="987" y="102" class="platform">Nginx</text><text x="971" y="127" class="platformDetail">HTTPS y enrutamiento</text>
+  <circle cx="1281" cy="95" r="4" fill="#70dfbc"/><text x="1297" y="102" class="platform">API y reglas</text><text x="1281" y="127" class="platformDetail">Django REST Framework</text>
+  <circle cx="1613" cy="95" r="4" fill="#f6c97c"/><text x="1629" y="102" class="platform">Persistencia</text><text x="1613" y="127" class="platformDetail">PostgreSQL</text>
+  <g fill="none" stroke="#81a0b8" stroke-width="2" marker-end="url(#arrow)"><path d="M910 107H934"/><path d="M1220 107H1244"/><path d="M1552 107H1576"/></g>
+  <path d="M64 193H1856" stroke="#294057"/>
+
+  <text x="64" y="247" class="micro" fill="#60d2e6">DOMINIO Y TRAZABILIDAD</text>
+  <text x="64" y="301" font-size="38" font-weight="700" fill="#f4f8ff" letter-spacing="-.7">De la procedencia del material a los procesos del negocio.</text>
+
+  <g fill="url(#card)" stroke="#345068">
+    <rect x="64" y="344" width="412" height="246" rx="18"/>
+    <rect x="524" y="344" width="412" height="246" rx="18"/>
+    <rect x="984" y="344" width="412" height="246" rx="18"/>
+    <rect x="1444" y="344" width="412" height="246" rx="18"/>
+  </g>
+  <path d="M86 345H454" stroke="#54d9ed" stroke-width="2"/>
+  <path d="M546 345H914" stroke="#af9dff" stroke-width="2"/>
+  <path d="M1006 345H1374" stroke="#70dfbc" stroke-width="2"/>
+  <path d="M1466 345H1834" stroke="#f6c97c" stroke-width="2"/>
+
+  <rect x="94" y="374" width="52" height="52" rx="12" fill="#1b3d4d"/>
+  <g class="icon" stroke="#68e0ee"><path d="m106 392 14-7 14 7-14 7-14-7Z m0 0v17l14 7 14-7v-17 m-14 7v17 m-7-27 14 7"/></g>
+  <text x="417" y="407" class="number" fill="#659cb0">01</text>
+  <text x="94" y="474" class="title">Origen</text>
+  <text x="94" y="513" class="body">Proveedor o contenedor</text>
+  <text x="94" y="545" class="body">Procedencia de compra</text>
+
+  <rect x="554" y="374" width="52" height="52" rx="12" fill="#30314e"/>
+  <g class="icon" stroke="#b9aaff"><rect x="566" y="386" width="28" height="28" rx="3"/><path d="M572 394h16m-16 7h16m-16 7h9"/></g>
+  <text x="877" y="407" class="number" fill="#8f87b8">02</text>
+  <text x="554" y="474" class="title">Tarjeta de estiba</text>
+  <text x="554" y="513" class="body">Variante · almacén · origen</text>
+  <text x="554" y="545" class="body">Saldo físico por tarjeta</text>
+
+  <rect x="1014" y="374" width="52" height="52" rx="12" fill="#1c3c3e"/>
+  <g class="icon" stroke="#81e6c6"><path d="M1027 386h17l9 9v20h-26v-29Zm17 0v9h9m-20 7h14m-14 6h10"/></g>
+  <text x="1337" y="407" class="number" fill="#77a99e">03</text>
+  <text x="1014" y="474" class="title">Documentos</text>
+  <text x="1014" y="513" class="body">Recepción · salida · informe</text>
+  <text x="1014" y="545" class="body">Movimientos y reversión</text>
+
+  <rect x="1474" y="374" width="52" height="52" rx="12" fill="#3c3b36"/>
+  <g class="icon" stroke="#f6ce8c"><rect x="1495" y="385" width="10" height="10" rx="2"/><rect x="1483" y="406" width="10" height="10" rx="2"/><rect x="1507" y="406" width="10" height="10" rx="2"/><path d="M1500 395v6m-12 5v-5h24v5"/></g>
+  <text x="1797" y="407" class="number" fill="#b4a17c">04</text>
+  <text x="1474" y="474" class="title">Procesos conectados</text>
+  <text x="1474" y="513" class="body">Producción y material WIP</text>
+  <text x="1474" y="545" class="body">Factura y despacho parcial</text>
+
+  <g fill="none" stroke="#81a0b8" stroke-width="2.4" marker-end="url(#arrow)"><path d="M488 467H512"/><path d="M948 467H972"/><path d="M1408 467H1432"/></g>
+  <text x="64" y="657" font-size="19" fill="#9bb4c9">El historial explica los cambios. Los saldos resumen el estado actual.</text>
+  <text x="1856" y="657" text-anchor="end" class="micro" fill="#6e94ad">MAPA CONCEPTUAL</text>
+</svg>
